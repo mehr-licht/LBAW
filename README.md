@@ -90,7 +90,7 @@ Com este projeto pretendemos criar uma plataforma online para leilões, oferecen
 * Luis Ricardo Marques Oliveira, up201607946@fe.up.pt 
 * Henrique Miguel Bastos Gonçalves, up201608320@fe.up.pt
 * João Ruano Neto Veiga de Macedo, up201704464@fe.up.pt
-* Ricardo Manuel Gonçalves da Silva, up201607780@fe.up.pt (editor)
+* Ricardo Manuel Gonçalves da Silva, up201607780@fe.up.pt
 
 
 ## Historico de editores:
@@ -106,16 +106,15 @@ A7-Luis\
 A8-Luis\
 resubs-João\
 A9-Ricardo\
-A10-
+A10-João
 
 
 ***
-GROUP2036, 18/02/2020
+GROUP2036, 18/06/2020
 # Group lbaw2036 - README
 
 JCL: Atendimento online: quintas, 16:00 ~ 17:00
 
-MEET da prática: [https://meet.google.com/zxv-dvmd-nzv](https://meet.google.com/zxv-dvmd-nzv)
 
 
 NOTES:
@@ -141,11 +140,11 @@ PDF_Coverter:
 
 ### login postgres @ dbm
 * lbaw2036
-* ZF311532
+* 
 
 ### docker
 * lbaw2036/lbaw2036
-* lbaw2036ebaw
+* 
 
 
 # How to run
@@ -375,4 +374,3 @@ Uploads all local branch commits to Github
 
     ``` git pull ```
 Downloads bookmark history and incorporates changes 
-
