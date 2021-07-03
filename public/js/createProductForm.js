@@ -1,0 +1,5 @@
+function previewFile() { let e = document.querySelector("#imagePreview");
+    console.log(e); let t = document.querySelector("input[type=file]").files[0],
+        n = new FileReader;
+    n.onloadend = function() { e.src = n.result }, t ? n.readAsDataURL(t) : e.src = "" }
+document.getElementById("sale-tab").addEventListener("click", function() { document.getElementById("sale").querySelectorAll("input").forEach(function(e) { e.setAttribute("required", !0) }), document.getElementById("auction").querySelectorAll("input").forEach(function(e) { e.removeAttribute("required"), e.value = "" }) }), document.getElementById("auction-tab").addEventListener("click", function() { document.getElementById("auction").querySelectorAll("input").forEach(function(e) { e.setAttribute("required", !0) }), document.getElementById("sale").querySelectorAll("input").forEach(function(e) { e.removeAttribute("required"), e.value = "" }) }), $(document).ready(function() { $('[data-toggle="popover"]').popover() });
